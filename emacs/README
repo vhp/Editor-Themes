@@ -1,0 +1,15 @@
+-All themes need color-theme to work. http://www.nongnu.org/color-theme/
+-Themes can be added to your ~/.emacs or dynamically loaded.
+
+To load, do the following:
+    1) load color-theme with M-x load-library
+    2) load theme.el file with M-x load-file
+    3) Select theme with M-x color-theme-
+
+
+;;Use the following to set the theme in your .emacs
+;;Replace 'theme-name' with them name like gedit-cobalt
+
+(require 'color-theme)
+   (setq color-theme-is-global t)
+   (color-theme-'theme-name')
